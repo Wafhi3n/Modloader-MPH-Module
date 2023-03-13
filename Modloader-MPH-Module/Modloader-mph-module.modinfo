@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="619ac86e-d99d-4bf3-b8f0-8c5b8c402122" version="150">
+  <Properties>
+    <Name>modloadertest</Name>
+    <Description>LOC_MPH_DESCRIPTION</Description>
+	<Created>1</Created>
+	<Version>9999999</Version>
+    <Teaser>LOC_MPH_TEASER</Teaser>
+    <Authors>w</Authors>
+	<SpecialThanks></SpecialThanks>
+    <CompatibleVersions>123</CompatibleVersions>
+  </Properties>
+	<LocalizedText>
+		<Text id="LOC_MPH_TITLE">
+			<en_US>Multiplayer Helper 1.5.0</en_US>
+			<fr_FR>modloader</fr_FR>
+		</Text>
+		<Text id="LOC_MPH_TEASER">
+			<en_US>Esport oriented mod to help tournament and game statibility.</en_US>
+            <fr_FR>Mod pour l'organisation de tournois Esports sur Civilization.</fr_FR>
+		</Text>
+		<Text id="LOC_MPH_DESCRIPTION">
+			<en_US>Esport oriented mod to help tournament, game statibility, and improving overall multiplayer experience.[NEWLINE][NEWLINE][COLOR_RED]You need to restart the game when you activate or deactivate the mod[ENDCOLOR][NEWLINE][NEWLINE]Some functionalities would be missing if you don't (e.g. Drafting)</en_US>
+            <fr_FR>sgsdfsrgfg</fr_FR>
+		</Text>
+	</LocalizedText>
+  <FrontEndActions>
+    <ImportFiles id="FrontEnd">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>		
+    </ImportFiles>
+        <UpdateDatabase id="CPL_SETTINGS">
+            <File>configuration/Config.xml</File>
+        </UpdateDatabase>		
+  </FrontEndActions> 
+  <Files>
+	<File>configuration/Config.xml</File>
+  </Files>
+</Mod>
